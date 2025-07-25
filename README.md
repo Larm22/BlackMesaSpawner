@@ -1,5 +1,5 @@
 
-# Black Mesa NPC Spawner Plugin
+# Black Mesa Enemy Spawner Plugin
 
 An enemy spawning system for Black Mesa cooperative that dynamically spawns enemies around players, health-based difficulty adjustment, and spawn management.
 
