@@ -1,16 +1,16 @@
 
 # Black Mesa NPC Spawner Plugin
 
-A comprehensive enemy spawning system for Black Mesa cooperative gameplay that dynamically spawns NPCs around players with advanced portal effects, health-based difficulty adjustment, and intelligent spawn management.
+An enemy spawning system for Black Mesa cooperative that dynamically spawns enemies around players, health-based difficulty adjustment, and spawn management.
 
 ## Features
 
-- **Dynamic NPC Spawning**: Automatically spawns enemies at configurable intervals around players
+- **Dynamic Spawning**: Automatically spawns enemies at configurable intervals around players
 - **Health-Based Difficulty**: Spawn rates automatically adjust based on team health (spawns less when players are injured)
 - **Portal Effects**: NPCs can spawn with dramatic Xen portal effects and sounds
-- **Intelligent Spawn Placement**: Advanced validation ensures NPCs spawn in appropriate locations
+- **Spawn Placement**: Validation ensures NPCs spawn in appropriate locations
 - **Multiple Spawn Types**: Portal spawns (dramatic/visible) vs Stealth spawns (hidden)
-- **NPC Variety**: Supports 15 different Black Mesa enemy types with individual configurations
+- **NPC Variety**: Supports 15 different enemy types with individual configurations
 - **Performance Optimized**: Multi-frame validation and batch processing for smooth gameplay
 
 ## Supported NPCs
@@ -127,27 +127,14 @@ Each NPC type can be individually enabled/disabled:
 1. Place the compiled plugin in your `sourcemod/plugins/` directory
 2. Restart the server or use `sm plugins load` to load the plugin
 3. Configure CVars in your `server.cfg` or through the admin commands
-4. Ensure portal sound files are present in the game directory
 
-## Portal Sound Files Required
-
-- `BMS_objects/portal/portal_In_01.wav`
-- `BMS_objects/portal/portal_In_02.wav`
-- `BMS_objects/portal/portal_In_03.wav`
-
-## Performance Notes
-
-- The plugin uses advanced optimization techniques including staged validation and batch processing
-- Recommended maximum NPC count is 5-10 depending on server performance
-- Health-based adjustment is event-driven and very lightweight
-- Portal effects are GPU-accelerated particle systems
 
 ## Version Information
 
-**Plugin Name:** BM NPC Spawner  
+**Plugin Name:** BM Spawner  
 **Version:** 3.2.0  
 **Authors:** OpenAI ChatGPT + Claude AI
 
 ---
 
-*This plugin enhances Black Mesa cooperative gameplay by providing dynamic, intelligent enemy spawning with spectacular portal effects and adaptive difficulty based on player performance.*
+
